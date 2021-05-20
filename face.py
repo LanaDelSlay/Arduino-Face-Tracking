@@ -37,7 +37,7 @@ while 1:
         print (yy)
         center = (xx,yy)
 # sending data to arduino
-        data = "X{0}Y{1}".format(xx, yy)
+        data = "X{0}Y{1}".format(int(xx), int(yy))
         bdata = b'data'
         print(data)
         arr = bytes(data, 'ascii')
