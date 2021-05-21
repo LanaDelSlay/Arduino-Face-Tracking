@@ -87,13 +87,13 @@ Project Link: [https://github.com/LanaDelSlay/Arduino-Face-Tracking/](https://gi
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/LanaDelSlay/Arduino-Face-Tracking.svg?style=for-the-badge
 [contributors-url]: https://github.com/LanaDelSlay/Arduino-Face-Tracking/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/LanaDelSlay/Arduino-Face-Tracking.svg?style=for-the-badge
 [forks-url]: https://github.com/LanaDelSlay/Arduino-Face-Tracking/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/LanaDelSlay/Arduino-Face-Tracking.svg?style=for-the-badge
 [stars-url]: https://github.com/LanaDelSlay/Arduino-Face-Tracking/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/LanaDelSlay/Arduino-Face-Tracking.svg?style=for-the-badge
 [issues-url]: https://github.com/LanaDelSlayArduino-Face-Tracking/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/graham-miller-b655611aa/
