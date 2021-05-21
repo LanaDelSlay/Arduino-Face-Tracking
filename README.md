@@ -48,7 +48,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-    This is a modified version of popular circulating face tracking code that I found to not work, and edited it to actually work lol! 
+This is a modified version of popular circulating face tracking code that I found to not work, and edited it to actually work lol! 
 
 
 <!-- GETTING STARTED -->
