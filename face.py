@@ -37,8 +37,8 @@ while 1:
         print (yy)
         center = (xx,yy)
 # sending data to arduino
-        data = "X{0}Y{1}".format(int(xx), int(yy))
-        bdata = b'data'
+        data = "X{0}Y{1}".format(int(xx), int(yy)) #Converting to an int to
+        bdata = b'data'                            #remove the ".0" from each value
         print(data)
         arr = bytes(data, 'ascii')
         arduino.write(arr)
