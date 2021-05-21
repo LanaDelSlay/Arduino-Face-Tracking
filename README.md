@@ -9,7 +9,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/LanaDelSlay/Shutdown-On-Lan/blob/main/corgi.png">
+  <a href="https://github.com/LanaDelSlay/Arduino-Face-Tracking/corgi.png">
     <img src="Corgi.png" alt="Logo" width="256" height="256">
   </a>
 
@@ -44,7 +44,6 @@
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
-
 
 
 <!-- ABOUT THE PROJECT -->
