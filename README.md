@@ -29,7 +29,7 @@
 
 
 <!-- TABLE OF CONTENTS -->
-<details open="open">
+<details align="left" open="open">
   <summary>Table of Contents</summary>
   <ol>
     <li>
@@ -83,8 +83,7 @@ Project Link: [https://github.com/LanaDelSlay/Arduino-Face-Tracking/](https://gi
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 * [Original Article](https://create.arduino.cc/projecthub/WolfxPac/face-tracking-using-arduino-b35b6b)
-
-
+* [This ReadME template](https://github.com/othneildrew/Best-README-Template)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
