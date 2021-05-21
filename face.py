@@ -4,11 +4,11 @@ import serial
 import time
 import sys
 import cv2
-#Setup Communication path for arduino (In place of 'COM5' put the port to which your arduino is connected)
+#Setup Communication path for arduino (In place of 'COM4' put the port to which your arduino is connected)
 arduino = serial.Serial('COM4', 115200) 
 time.sleep(2)
 print("Connected to arduino...")
-#importing the Haarcascade for face detection
+#importing the Haar Cascade for face detection
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 #To capture the video stream from webcam.
 cap = cv2.VideoCapture(0)
@@ -42,7 +42,6 @@ while 1:
         print(data)
         arr = bytes(data, 'ascii')
         arduino.write(arr)
-        
 #Display the stream.
     cv2.imshow('img',img)
 #Hit 'Esc' to terminate execution 
