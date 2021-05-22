@@ -38,10 +38,10 @@
       </ul>
     </li>
     <li><a href="#getting-started">Getting Started</a></li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
+    <li><a href="#my-very-janky-concoction">My Very Janky Concoction</a></li>
+    <li><a href="#required-hardware-links">Required Hardware Links</a></li>
   </ol>
 </details>
 
@@ -54,36 +54,97 @@ This is a modified version of popular circulating face tracking code that I foun
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Instructions coming soon.
+### Software & Hardware Requirements.
+  <summary>Software Required</summary>
+  <ol>
+    <ul>Arduino IDE</ul>
+    <ul>Pyhton</ul>
+    <ul>PySerial</ul>
+    <ul>Numpy</ul>
+    <ul>OpenCV</ul>
+  </ol> 
+  
+  <summary>Requirements For The Hardware</summary>
+  <ol>
+    <ul>2x Servos </ul>
+    <ul>Pan & Tilt Kit</ul>
+    <ul>Arduino</ul>
+    <ul>Breadboard & Wires</ul>
+    <ul>Camera</ul>
+  </ol>
 
+### Installing the software.
+1. Install Python [here](https://www.python.org/downloads/) (During installation you'll be asked if you want the IDLE editor, I'd reccomend getting it for ease of running the python script later!). 
+2. Install PySerial, we can do this by openeing command prompt and typing 
+```
+pip install serial
+```
+3. Install Numpy 
+```
+pip install numpy
+```
+4. Install openCV
+```
+pip install opencv-python
+```
+5. Install the Arduino IDE [here!](https://www.arduino.cc/en/software)
+6. We're all done with software, now to the hardware! Lets move on to the next section to see how to wire the servos to the Arduino!
 
-<!-- USAGE EXAMPLES -->
-## Usage
-Do whatever you want with this!
+### How to wire the servos to Arduino.
+#### Schematic (See below if you're confused)
+![Schematic](https://i.imgur.com/uEmxZit.png)
+#### Diagram
+![Diagram](https://i.imgur.com/aPABEaG.png)
+(Some servos do need 5v however, such as the continous servo linked here! )
+### Upload the code the the Arduino 
+1. Open Servo.ini using the Arduino IDE
+2. Under Tools-> Select the right Arduino board, and "COM Port", the USB port.
+![Tools Example](https://i.imgur.com/G6XWyXs.png)
 
-<!-- CONTRIBUTING -->
-## Contributing
+3. Click the upload button
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+![Upload Button Example](https://i.imgur.com/mdeXwJU.png)
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+4. Finished! Now we just have to run the Pyhton code.
 
+### Running the Python Code
+1. Open the IDLE editor, should've been installed while installing Python!
+2. Click Run -> Run Module ( Or click F5) 
+
+![Run Module](https://i.imgur.com/TUBvljj.png)
+
+3. You're done! You should now have a working face tracking camera and a pyhton window looking like this!
+![Face Tracking](https://i.imgur.com/4RCBjMi.png) 
+
+## My Very Janky Concoction
+### Inside
+![Inside](https://i.imgur.com/gI1wGmO.jpg)
+### Outside
+![Outside](https://i.imgur.com/JteLVQU.jpg)
+### Behind
+![Behind](https://i.imgur.com/T6jsvfF.jpg)
+### Bottom
+![Bottom](https://i.imgur.com/95J8m6l.jpg)
+### Janky Camera Setup LOL
+![Janky Setup](https://i.imgur.com/tyoQNcZ.jpg)
 
 <!-- CONTACT -->
 ## Contact
-
 Graham - gmiller1902@gmail.com
-
 Project Link: [https://github.com/LanaDelSlay/Arduino-Face-Tracking/](https://github.com/LanaDelSlay/Arduino-Face-Tracking/)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 * [Original Article](https://create.arduino.cc/projecthub/WolfxPac/face-tracking-using-arduino-b35b6b)
 * [This ReadME template](https://github.com/othneildrew/Best-README-Template)
+
+## Required Hardware Links
+* [Cheap Arduino Board ($13)](https://amzn.to/2RCAFkA)
+* [Small USB Camera ($45)](https://amzn.to/3vcWs0T)
+* [Pan & Tilt Servo Case($20)](https://amzn.to/3oE6ANC)
+* [Bread Board & Wires($10)](https://amzn.to/3bHHmbS)
+* [Servo($8)](https://amzn.to/347tseU) (Currently the code is intended for one of these as the veritcal servo, and a continous turn servo for the horizontal.)
+* [Continous Servo For Horizontal Axis($17)](https://amzn.to/2SbggD7) 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
