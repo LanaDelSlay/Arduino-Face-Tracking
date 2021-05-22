@@ -99,6 +99,7 @@ pip install opencv-python
 ### Upload the code the the Arduino 
 1. Open Servo.ini using the Arduino IDE
 2. Under Tools-> Select the right Arduino board, and "COM Port", the USB port.
+
 ![Tools Example](https://i.imgur.com/G6XWyXs.png)
 
 3. Click the upload button
@@ -114,6 +115,7 @@ pip install opencv-python
 ![Run Module](https://i.imgur.com/TUBvljj.png)
 
 3. You're done! You should now have a working face tracking camera and a pyhton window looking like this!
+
 ![Face Tracking](https://i.imgur.com/4RCBjMi.png) 
 
 ## My Very Janky Concoction
