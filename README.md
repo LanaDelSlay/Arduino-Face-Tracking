@@ -70,7 +70,7 @@ This is a modified version of popular circulating face tracking code that I foun
     <ul>Pan & Tilt Kit</ul>
     <ul>Arduino</ul>
     <ul>Breadboard & Wires</ul>
-    <ul>Camera</ul>
+    <ul>USB Camera</ul>
   </ol>
 
 ### Installing the software.
