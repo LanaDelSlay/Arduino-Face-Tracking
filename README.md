@@ -20,7 +20,7 @@
     <br />
     <br />
     <br />
-    <a href="https://i.imgur.com/XkbcIeS.png">View Example</a>
+    <a href="#inside">View Example</a>
     ·
     <a href="https://github.com/LanaDelSlay/Arduino-Face-Tracking/issues">Report Bugs</a>
   
